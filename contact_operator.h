@@ -9,6 +9,8 @@ public:
     ~contact_operator();
 
     void add_contact();
+    void print_menu();
+    void exec_func();
 private:
     bool validate_num(std::string);
     int convert_num(std::string);
